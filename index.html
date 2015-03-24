@@ -20,12 +20,19 @@
     <!-- font awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" type="text/css" href="colours.css">
+    <!-- material design colours -->
+    <!-- production link
+    https://cdn.rawgit.com/domhnallohanlon/colours/master/colours.css
+     -->
+    <link rel="stylesheet" type="text/css" href="https://rawgit.com/domhnallohanlon/colours/master/colours.css">
+    
+    <!-- local copy
+    <link rel="stylesheet" href="../colours/colours.css"> -->
 
 </head>
 <body data-spy="scroll" data-target="#myLittleEye">
-<div class="navbar navbar-default navbar-fixed-top orange" style="background-color:#FF9800">
-    <div class="navbar-header">
+<div class="navbar navbar-default navbar-fixed-top" >
+    <div class="navbar-header orangeBG">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -33,14 +40,19 @@
         </button>
         <a class="navbar-brand" href="http://domhnallohanlon.github.io">Domhnall's Projects</a>
     </div>
-    <div class="navbar-collapse collapse navbar-responsive-collapse">
+    <div class="navbar-collapse collapse navbar-responsive-collapse orangeBG">
         <ul class="nav navbar-nav">
-            <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
-            <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+            <li><a href="https://twitter.com/domhnallohanlon" target="_blank">
+              <i class="fa fa-twitter"></i>
+              Twitter</a></li>
+            <li><a href="https://ie.linkedin.com/in/domhnallohanlon" target="_blank">
+              <i class="fa fa-linkedin-square"></i>
+              LinkedIn</a></li>
+            <li><a href="https://github.com/domhnallohanlon" target="_blank">
+              <i class="fa fa-github"></i>
+              Github</a></li>  
         </ul>
-        <form class="navbar-form navbar-left">
-            <input type="text" class="form-control col-lg-8" placeholder="Search">
-        </form>
+
 
     </div>
 </div> <!-- navbar -->
